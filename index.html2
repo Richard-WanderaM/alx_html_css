@@ -46,3 +46,15 @@
   </footer>
 </body>
 </html>
+
+<!-- The <body> tag now contains three direct sub-tags in order: <header>, <main>, and <footer> -->
+
+<!-- The <header> tag contains an unordered list (<ul>) with links (<a>) to each webpage -->
+
+<!-- The <main> tag contains two direct sub-tags in order: <article> and <aside> -->
+
+<!-- The content of each webpage is placed inside the <article> tag -->
+
+<!-- The <aside> tag contains a placeholder paragraph for adding a comment thread later -->
+
+<!-- The <footer> tag contains a paragraph with the "Made by" sentence and a link -->
