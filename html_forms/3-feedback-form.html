@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+<h1>Feedback Form</h1>
+
+<form id="feedbackForm" onsubmit="submitForm(event)">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label>Feedback options:</label>
+  <div>
+    <input type="checkbox" id="excellent" name="feedback" value="excellent">
+    <label for="excellent">Excellent</label>
+  </div>
+  <div>
+    <input type="checkbox" id="good" name="feedback" value="good">
+    <label for="good">Good</label>
+  </div>
+  <div>
+    <input type="checkbox" id="average" name="feedback" value="average">
+    <label for="average">Average</label>
+  </div>
+  <div>
+    <input type="checkbox" id="poor" name="feedback" value="poor">
+    <label for="poor">Poor</label>
+  </div>
+
+  <label for="file">Upload file:</label>
+  <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .pdf" required>
+
+  <button type="submit">Submit</button>
+</form>
+
+<script src="scriipt.js"></script>
+
+</body>
+</html>
